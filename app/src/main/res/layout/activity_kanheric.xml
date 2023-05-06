@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10dp"
+    tools:context=".kanheric">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="65dp">
+
+            <TextView
+                android:id="@+id/textView34"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:background="#CC00BCD4"
+                android:fontFamily="@font/inter_medium"
+                android:gravity="center_horizontal|center_vertical"
+                android:text="Kanheri Caves"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textSize="35sp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/imageButton18"
+                android:layout_width="59dp"
+                android:layout_height="match_parent"
+                android:background="#00BCD4"
+                android:tint="#1F2020"
+                app:srcCompat="@drawable/back" />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:paddingTop="10dp">
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="150dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:orientation="horizontal"
+                    android:paddingLeft="5dp">
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:layout_weight="1"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="5dp"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/k1" />
+
+                    <ImageView
+                        android:id="@+id/imageView7"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/k2" />
+
+                    <ImageView
+                        android:id="@+id/imageView8"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/k3" />
+
+                    <ImageView
+                        android:id="@+id/imageView9"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/k4" />
+
+                    <ImageView
+                        android:id="@+id/imageView10"
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:layout_gravity="center"
+                        android:paddingLeft="5dp"
+                        android:paddingRight="5dp"
+                        android:scaleType="centerCrop"
+                        app:srcCompat="@drawable/k5" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+        </FrameLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:paddingTop="15dp"
+                    android:paddingRight="15dp">
+
+                    <ImageButton
+                        android:id="@+id/imageButton22"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:layout_gravity="center"
+                        android:layout_marginStart="75dp"
+                        android:layout_marginLeft="75dp"
+                        android:background="#FAF8F8"
+                        android:foregroundGravity="right"
+                        android:scaleType="centerCrop"
+                        android:tint="#100B0B"
+                        app:srcCompat="@drawable/bl" />
+
+                    <ImageButton
+                        android:id="@+id/imageButton19"
+                        android:layout_width="65dp"
+                        android:layout_height="65dp"
+                        android:layout_gravity="right"
+                        android:background="#FAF8F8"
+                        android:scaleType="centerCrop"
+                        android:tint="#100B0B"
+                        app:srcCompat="@drawable/like" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/desc">
+
+                    <TextView
+                        android:id="@+id/textView35"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="#D9D9D9"
+                        android:fontFamily="@font/inter_medium"
+                        android:gravity="center_vertical"
+                        android:text="Location"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView40"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="40dp"
+                        android:fontFamily="@font/inter_medium"
+                        android:gravity="center_horizontal|top"
+                        android:text="On the outskirts of Mumbai, away from the hustle and bustle of the city, lies this green and airy tourist spot – Kanheri Caves. This serene cave complex is situated on a hillside and you can access it through steps cut into the rocks.Kanheri Caves used to be a Buddhist monastery and a point for worship, study and meditation. It is located within the Sanjay Gandhi National Park and you will need to trek through lush green forests to reach the caves. If you’re looking for a tranquil place to get a view of the city’s skyline, Kanheri Caves in Mumbai should be your choice.The most recent caves are from 11th century CE. Most of them served as Buddhist viharas. "
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                        android:textColor="#574646"
+                        android:textSize="16sp" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/desc">
+
+                    <TextView
+                        android:id="@+id/textView36"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:background="#D9D9D9"
+                        android:fontFamily="@font/inter_medium"
+                        android:text="History"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView41"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="40dp"
+                        android:fontFamily="@font/inter_medium"
+                        android:gravity="center_horizontal"
+                        android:text="The word ‘Kanheri’ has been derived from Krishnagiri, a Sanskrit word that means “Black Mountain”. This ancient monastery has been carved out of black basalt rock and has been a learning centre and pilgrimage site for Buddhists.  Much of the inscriptions are still undeciphered, but people believe that the first excavations started sometime around the 1st or 2nd century BCE. The large halls with stupas suggest that the caves were significant as Buddhist shrines and that the place played an important role in the propagation of Buddhism in India."
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                        android:textColor="#574646"
+                        android:textSize="16sp" />
+
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/transparent">
+
+                    <ImageButton
+                        android:id="@+id/imageButton23"
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:scaleType="center"
+                        app:srcCompat="@drawable/gmk" />
+
+                    <Button
+                        android:id="@+id/button12"
+                        android:layout_width="300dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="bottom|center_horizontal"
+                        android:text="View in MAP"
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                        android:textSize="20sp"
+                        android:textStyle="bold"
+                        app:backgroundTint="#93E3DF"
+                        app:cornerRadius="10dp" />
+
+                </FrameLayout>
+
+                <Button
+                    android:id="@+id/button16"
+                    android:layout_width="300dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="#00BCD4"
+                    android:gravity="center"
+                    android:text="Write a Review"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    app:backgroundTint="#00BCD4"
+                    app:cornerRadius="10dp" />
+
+                <Button
+                    android:id="@+id/button18"
+                    android:layout_width="300dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="#00BCD4"
+                    android:gravity="center"
+                    android:text="Rate"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                    android:textSize="25sp"
+                    android:textStyle="bold"
+                    app:backgroundTint="#00BCD4"
+                    app:cornerRadius="10dp" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

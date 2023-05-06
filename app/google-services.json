@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "15399135609",
+    "project_id": "parichay-mahanrashtra",
+    "storage_bucket": "parichay-mahanrashtra.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:15399135609:android:b89f4957ab86d32de5a7a8",
+        "android_client_info": {
+          "package_name": "com.example.parichaymahanrashtra"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "15399135609-7m3suign76dumg17e4fgsvbtc8492ffc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAdPPCjyBvC-k2PcTkVf53c9pkKDH7UIHg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "15399135609-7m3suign76dumg17e4fgsvbtc8492ffc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

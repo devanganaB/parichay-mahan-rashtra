@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Diary"
+            android:title="Trip Vlog" />
+        <item
+            android:id="@+id/Hotels"
+
+            android:title="Hotels and Stays" />
+        <item
+            android:id="@+id/location"
+
+            android:title="Change Your Location" />
+
+        <item
+            android:id="@+id/Transport"
+
+            android:title="Transport" />
+
+        <item
+        android:id="@+id/Favourites"
+
+        android:title="Favourites" />
+
+        <item
+        android:id="@+id/bucketList"
+
+        android:title="Bucket List" />
+
+        <item
+        android:id="@+id/speedDials"
+
+        android:title="Speed Dials" />
+
+        <item
+        android:id="@+id/Help"
+        android:title="Help"
+            android:icon="@drawable/ic_baseline_info_24"/>
+
+    </group>
+    <group >
+        <item
+            android:id="@+id/Terms"
+            android:title="Terms and Conditions"
+            />
+        <item
+            android:id="@+id/About"
+            android:title="About Us" />
+        <item
+            android:id="@+id/Contact"
+            android:title="Contact Us" />
+        <item
+            android:id="@+id/Rating"
+            android:title="Rate Us" />
+        <item
+            android:id="@+id/logout"
+            android:title="Log Out" />
+    </group>
+</menu>
